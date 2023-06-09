@@ -4,25 +4,24 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
+    postgres,
     git,
     figma,
-    docker,
-    meta,
+    aeo,
     starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    pokeapi,
+    metric,
+    ruby,
+    space,
+    book,
+    budget,
+    rubyRails,
+    fusion1
   } from "../assets";
   
   export const navLinks = [
@@ -69,12 +68,16 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "ruby",
+      icon: ruby,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "rubyRails",
+      icon: rubyRails,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "React JS",
@@ -89,16 +92,8 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "postgres",
+      icon: postgres,
     },
     {
       name: "git",
@@ -107,66 +102,43 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full stack",
+      company_name: "Microverse",
       icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "October 2022 - may 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Throughout my journey, I have dedicated over 1300 hours to mastering algorithms, data structures, and full-stack development. Simultaneously, I have been actively involved in developing projects utilizing Ruby, Rails, JavaScript, React, and Redux. In addition to technical expertise, I have honed my skills in remote pair programming using GitHub, adhering to industry-standard git-flow, and participating in daily standups to effectively communicate and collaborate with international remote developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Mentor",
+      company_name: "Microverse",
+      icon: starbucks,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: " Feb 2022 - may 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Mentored three junior web developers weekly, providing technical support through code reviews using Zoom and Slack as primary tools.",
+        " Proposed improvements to code organization to improve code quality and overall performance by 10%.",
+        "Provided advice and tips on maintaining motivation, resulting in the successful longevity of six students in the program."
       ],
     },
+    {
+      title: "Associate",
+      company_name: "American Eagle Outfitters",
+      icon: aeo,
+      iconBg: "#E6DEDD",
+      date: "Nov 2016  - Jul 2020",
+      points: [
+        "Successfully resolved over fifty claims, resulting in a 95% customer satisfaction rate.",
+        "Attended the national training for the development and strategy of stand design and won the internal design contest."
+      ],
+    }
   ];
   
   const testimonials = [
@@ -198,30 +170,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "mv-pokeapp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a Single Page WebApp (API based) that show information about your favorite Pokemon, you can Like, Comment and even Reserve it for your next tournament. buildt with Javascript, Html & Css",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PokeApi",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pokeapi,
+      source_code_link: "https://github.com/PierreBarba/mv-pokeapp",
     },
     {
-      name: "Job IT",
+      name: "Metric",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Single Page Application (SPA) created using React library. This web application can perform the search for the countries of Europe and give some of their details. Code is written following JSX syntax. The web application is maintained using Redux store. API calls are made using Redux Async toolkit createAsyncThunk.",
       tags: [
         {
           name: "react",
@@ -232,24 +204,24 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: metric,
+      source_code_link: "https://github.com/PierreBarba/capstone-metrics",
     },
     {
-      name: "Trip Guide",
+      name: "Ruby on Rails React",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "ruby",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +229,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: fusion1,
+      source_code_link: "https://github.com/PierreBarba/Ruby-on-Rails-React",
+    },
+    {
+      name: "space-traveller-s-hub",
+      description:
+        "A simple website to view rockets, missions, and dragons from SpaceX API built with React-Redux. Users can reserve any rocket or dragon and can join any mission, their joined and reserved items are shown in the profile section. tools: REACT-REDUX.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: space,
+      source_code_link: "https://github.com/PierreBarba/space-traveller-s-hub",
+    },
+    {
+      name: "Bookstore",
+      description:
+        "This is an app made with react and redux using an API that is used to add your favorite books, like the chapter you are in you can also remove them from the list.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: book,
+      source_code_link: "https://github.com/PierreBarba/bookstore",
+    },
+    {
+      name: "BudgetApp",
+      description:
+        "Spend Tracker is an app that helps users track their expenses with ease. It offers data syncing across devices, password protection, and customizable features, which can assist individuals in gaining insights into their spending habits and managing their budget efficiently. tools: react, redux, js, css.",
+      tags: [
+        {
+          name: "react-redux",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: budget,
+      source_code_link: "https://github.com/PierreBarba/capstoneBudgetApp",
     },
   ];
   
