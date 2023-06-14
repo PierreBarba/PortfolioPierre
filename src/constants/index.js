@@ -11,7 +11,6 @@ import {
     tailwind,
     postgres,
     git,
-    figma,
     aeo,
     starbucks,
     pokeapi,
@@ -21,6 +20,10 @@ import {
     book,
     budget,
     rubyRails,
+    jest,
+    webP,
+    adobe,
+    MySql,
     fusion1
   } from "../assets";
   
@@ -45,11 +48,11 @@ import {
       icon: web,
     },
     {
-      title: "React Front-end Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
-      title: "Back-end Developer",
+      title: "Backend Developer",
       icon: backend,
     },
     {
@@ -62,6 +65,18 @@ import {
     {
       name: "HTML 5",
       icon: html,
+    },
+    {
+      name: "jest",
+      icon: jest,
+    },
+    {
+      name: "WebPack",
+      icon: webP,
+    },
+    {
+      name: "Adobe",
+      icon: adobe,
     },
     {
       name: "CSS 3",
@@ -100,8 +115,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "MySql",
+      icon: MySql,
     }
   ];
   
@@ -110,7 +125,7 @@ import {
       title: "Full stack",
       company_name: "Microverse",
       icon: starbucks,
-      iconBg: "#E6DEDD",
+      iconBg: "linear-gradient(115deg, #ffffff, #C0C0C0, #ffffff, #C0C0C0, #ffffff, #C0C0C0)",
       date: "October 2022 - may 2023",
       points: [
         "Throughout my journey, I have dedicated over 1300 hours to mastering algorithms, data structures, and full-stack development. Simultaneously, I have been actively involved in developing projects utilizing Ruby, Rails, JavaScript, React, and Redux. In addition to technical expertise, I have honed my skills in remote pair programming using GitHub, adhering to industry-standard git-flow, and participating in daily standups to effectively communicate and collaborate with international remote developers.",
@@ -120,7 +135,7 @@ import {
       title: "Mentor",
       company_name: "Microverse",
       icon: starbucks,
-      iconBg: "#E6DEDD",
+      iconBg: "linear-gradient(115deg, #C0C0C0,#ffffff, #C0C0C0, #ffffff, #C0C0C0, #ffffff)",
       date: " Feb 2022 - may 2023",
       points: [
         " Mentored three junior web developers weekly, providing technical support through code reviews using Zoom and Slack as primary tools.",
@@ -132,7 +147,7 @@ import {
       title: "Associate",
       company_name: "American Eagle Outfitters",
       icon: aeo,
-      iconBg: "#E6DEDD",
+      iconBg: "linear-gradient(115deg, #ffffff, #C0C0C0, #ffffff, #C0C0C0, #ffffff, #C0C0C0)",
       date: "Nov 2016  - Jul 2020",
       points: [
         "Successfully resolved over fifty claims, resulting in a 95% customer satisfaction rate.",
@@ -144,27 +159,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I had the pleasure of working with Pierre Barba on a coding project, and I can confidently say that he is an outstanding coding partner. He is not only reliable, but also highly professional in his approach to work.Pierre consistently demonstrated his ability to write clean, efficient code, and he was always willing to go above and beyond to ensure the success of our project. His attention to detail and strong problem-solving skills were invaluable to our team.Overall, I highly recommend Pierre as a coding partner. He is a pleasure to work with, and I am confident that he will bring the same level of professionalism and expertise to any coding project he undertakes.",
+      name: "Prangon Ghose",
+      designation: "Software Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/64170307?v=4",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Pierre is an exceptional coding partner whose technical skills are matched only by his passion for coding. He is a creative problem-solver who consistently delivers high-quality work, and his dedication to his craft is truly impressive. In the time that we've worked together, I have come to appreciate Pierre's ability to collaborate effectively, communicate clearly, and adapt to new challenges. Pierre's knowledge and experience in coding make him an asset to any team, and I would highly recommend him for any coding collaboration.",
+      name: "Paul Saenz Sucre",
+      designation: "Software Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/10566417?v=4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "I worked with Pierre for almost 1 year and he always was available to listen and help others, contributing to the personal improvement of his coworkers. He compromises with his personal growth, facing challenges with strength and confidence and always looking for technical knowledge improvement and reach his professional goals.",
+      name: "Cilfone Gabriel",
+      designation: "Software Developer",
+      company: "Microverse",
+      image: "https://avatars.githubusercontent.com/u/79432268?v=4",
     },
   ];
   
