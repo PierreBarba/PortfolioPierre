@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full bg-gradient-to-b from-white to-white p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-black rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -45,7 +45,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
         Passionate and results-driven Full Stack Developer with a proven track record of successfully completing over 40  Ruby on Rails and React projects. 
         Equipped with extensive hands-on experience, I possess a strong foundation in remote work and pair programming, enabling me to excel in distributed environments. 
