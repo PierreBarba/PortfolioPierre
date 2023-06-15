@@ -22,9 +22,10 @@ const App = () => {
           <Works />
         </div>
         <Feedbacks />
-        <div className="bg-black relative z-0">
+        <div className="bg-white relative z-0">
           <Contact />
           <StarsCanvas />
+          <earth />
         </div>
       </div>
     </BrowserRouter>
