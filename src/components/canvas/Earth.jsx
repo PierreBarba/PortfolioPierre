@@ -8,7 +8,7 @@ const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={1} position-y={0} rotation-y={0.5} rotation-x={1.1} rotation-z={0.99}/>
+    <primitive object={earth.scene} scale={0.38} position-y={-1.5} position-x={1.8} rotation-y={0} rotation-x={1.6} rotation-z={0}/>
   );
 };
 
@@ -27,35 +27,36 @@ const EarthCanvas = () => {
       }}
     >
       <directionalLight
-        position={[0, 40, 5]}
-        angle={80}
+        position={[0, -1, 0]}
+        angle={45}
         penumbra={1}
-        intensity={1}
+        intensity={0.1}
         castShadow
         shadow-mapSize={1060}
       />
         <directionalLight
-        position={[0, -1, 0]}
-        angle={1}
-        penumbra={1}
-        intensity={1}
+        position={[0, -1.5, 4]}
+        angle={0}
+        penumbra={3}
+        intensity={0.5}
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={200}
       />
         <directionalLight
-        position={[0, 0, 0.5]}
-        angle={1}
+        position={[1.5, -6.5, 3]}
+        angle={90}
         penumbra={1}
-        intensity={1}
+        intensity={0.7}
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={99}
       />
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           autoRotate
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          maxPolarAngle={Math.PI / 1}
+          minPolarAngle={Math.PI / 1}
+          target={[-2.29, -1.5, 0]}
         />
         <Earth />
         <Preload all />
