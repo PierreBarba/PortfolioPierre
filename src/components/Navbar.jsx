@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-black text-[18px] font-bold cursor-pointer flex '>
+          <p className='hover:text-[#B2140B] text-black text-[18px] font-bold cursor-pointer flex '>
             Pierre Barba &nbsp;
             <span className='sm:block hidden'> | Welcome</span>
           </p>

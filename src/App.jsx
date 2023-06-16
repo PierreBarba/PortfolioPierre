@@ -15,12 +15,17 @@ const App = () => {
         <div className="relative z-0 bg-white">
           <Experience />
         </div>
-        <Tech />
-        <Works />
+        <div className="relative z-0 bg-black">
+          <Tech />
+        </div>
+        <div className="relative z-0 bg-white">
+          <Works />
+        </div>
         <Feedbacks />
-        <div className="relative z-0">
+        <div className="bg-white relative z-0">
           <Contact />
           <StarsCanvas />
+          <earth />
         </div>
       </div>
     </BrowserRouter>
