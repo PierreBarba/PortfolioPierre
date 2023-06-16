@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import resume from "../assets/resume.pdf";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -78,7 +78,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-6'
+          className='mt-8 flex flex-col gap-6'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -105,7 +105,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={4}
+              rows={3}
               name='message'
               value={form.message}
               onChange={handleChange}
@@ -120,6 +120,11 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className='mt-6 border border-2 border-white bg-black hover:border-double py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
+              <a href={resume} download={resume}><span> &#128194; </span>Download Resume</a>
+            </div>
+          </div>
         </form>
       </motion.div>
 
