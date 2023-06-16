@@ -204,6 +204,7 @@ import {
       ],
       image: pokeapi,
       source_code_link: "https://github.com/PierreBarba/mv-pokeapp",
+      source_code_link_live: "https://luigirazum.github.io/mv-pokeapp/",
     },
     {
       name: "Metric",
@@ -225,69 +226,7 @@ import {
       ],
       image: metric,
       source_code_link: "https://github.com/PierreBarba/capstone-metrics",
-    },
-    {
-      name: "Ruby on Rails React",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "ruby",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: fusion1,
-      source_code_link: "https://github.com/PierreBarba/Ruby-on-Rails-React",
-    },
-    {
-      name: "space-traveller-s-hub",
-      description:
-        "A simple website to view rockets, missions, and dragons from SpaceX API built with React-Redux. Users can reserve any rocket or dragon and can join any mission, their joined and reserved items are shown in the profile section. tools: REACT-REDUX.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: space,
-      source_code_link: "https://github.com/PierreBarba/space-traveller-s-hub",
-    },
-    {
-      name: "Bookstore",
-      description:
-        "This is an app made with react and redux using an API that is used to add your favorite books, like the chapter you are in you can also remove them from the list.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: book,
-      source_code_link: "https://github.com/PierreBarba/bookstore",
+      source_code_link_live: "https://pierrebarba.github.io/capstone-metrics/",
     },
     {
       name: "BudgetApp",
@@ -309,7 +248,74 @@ import {
       ],
       image: budget,
       source_code_link: "https://github.com/PierreBarba/capstoneBudgetApp",
+      source_code_link_live: "https://luigirazum.github.io/mv-pokeapp/",
     },
+    {
+      name: "space-traveller-s-hub",
+      description:
+        "A simple website to view rockets, missions, and dragons from SpaceX API built with React-Redux. Users can reserve any rocket or dragon and can join any mission, their joined and reserved items are shown in the profile section. tools: REACT-REDUX.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: space,
+      source_code_link: "https://github.com/PierreBarba/space-traveller-s-hub",
+      source_code_link_live: "https://prangonghose.github.io/space-traveller-s-hub/",
+    },
+    {
+      name: "Bookstore",
+      description:
+        "This is an app made with react and redux using an API that is used to add your favorite books, like the chapter you are in you can also remove them from the list.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: book,
+      source_code_link: "https://github.com/PierreBarba/bookstore",
+      source_code_link_live: "https://reac-redux-bookstore1.onrender.com/",
+    },
+    {
+      name: "Ruby on Rails React",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "ruby",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fusion1,
+      source_code_link: "https://github.com/PierreBarba/Ruby-on-Rails-React",
+      source_code_link_live: "https://luigirazum.github.io/mv-pokeapp/",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
