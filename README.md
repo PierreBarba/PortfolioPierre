@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./src/assets/LogoReadme.png" alt="logo" width="170"  height="auto" />
+  <img src="./src/assets/LogoReadme.png" alt="logo" width="250"  height="auto" />
   <br/>
 
   <h2><b>JEAN PIERRE BARBA</b></h2>
