@@ -5,7 +5,7 @@
   <img src="./src/assets/LogoReadme.png" alt="logo" width="250"  height="auto" />
   <br/>
 
-  <h2><b>JEAN PIERRE BARBA<span> 	&#10072; </span> My Portfolio </b></h2>
+  <h2><b>Jean Pierre Barba<span> 	&#10072; </span> My Portfolio </b></h2>
 
 </div>
 
