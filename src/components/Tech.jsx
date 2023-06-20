@@ -21,6 +21,16 @@ const Tech = () => {
       </div>
     ))}
   </div>
+  <h3 className="mt-4 text-yellow-400 font-black text-center md:text-4xl sm:text-3xl xs:text-2xl text-xl">Soft Skills</h3>
+  <div className="mt-4 flex flex-row flex-wrap justify-center gap-10 ">
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Leadership</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Deep work</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Project Management</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Pair programming</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Time management</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Team Work</h4>
+  <h4 className="text-center w-32 h-34 hover:border-solid border-double border-4 border-white bg-black rounded-[12px] hover:border-double-black ">Self-Driven learning</h4>
+  </div>
 </div>
 
   );
