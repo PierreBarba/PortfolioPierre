@@ -1,4 +1,4 @@
-import { ComputersCanvas } from './canvas';
+// import { ComputersCanvas } from './canvas';
 // import {StarsCanvas } from './canvas';
 // import {EarthCanvas } from './canvas';
 import Hero from './Hero';
@@ -18,8 +18,8 @@ export {
   Experience,
   Works,
   Feedbacks,
-  Contact,
+  Contact
   // EarthCanvas, 
-  ComputersCanvas 
+  // ComputersCanvas 
   // StarsCanvas
 }
