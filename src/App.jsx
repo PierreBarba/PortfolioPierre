@@ -25,7 +25,7 @@ const App = () => {
         <div className="bg-white relative z-0">
           <Contact />
           {/* <StarsCanvas /> */}
-          <earth />
+          {/* <earth /> */}
         </div>
       </div>
     </BrowserRouter>
