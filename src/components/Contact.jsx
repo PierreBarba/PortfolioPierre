@@ -1,7 +1,9 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import resume from "../assets/resume.pdf";
+import Resume from "../assets/resume.pdf";
+import ResumePierreBarba from "../assets/ResumePierreBarba.pdf";
+import ResumeEspañolPierreBarba from "../assets/ResumeEspañolPierreBarba.pdf";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -121,8 +123,48 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div className='mt-6 border border-2 border-white bg-black hover:border-double py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
-              <a href={resume} download={resume}><span> &#128194; </span>Download Resume</a>
+            <div className="mt-4 grid grid-cols-1 md:grid-cols-3">
+              <a
+                href={Resume}
+                download
+                className="bg-black border-2 border-white rounded-2xl p-4 text-center hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-white/20"
+              >
+                <div className="text-5xl mb-3">📄</div>
+                <h3 className="text-white font-bold text-lg">
+                  Resume
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  English Version
+                </p>
+              </a>
+
+              <a
+                href={ResumeEspañolPierreBarba}
+                download
+                className="bg-black border-2 border-white rounded-2xl p-4 text-center hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-white/20"
+              >
+                <div className="text-5xl mb-3">📄</div>
+                <h3 className="text-white font-bold text-lg">
+                  CV Español
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  Versión en Español
+                </p>
+              </a>
+
+              <a
+                href={ResumePierreBarba}
+                download
+                className="bg-black border-2 border-white rounded-2xl p-4 text-center hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-white/20"
+              >
+                <div className="text-5xl mb-3">📄</div>
+                <h3 className="text-white font-bold text-lg">
+                  CV con Foto
+                </h3>
+                <p className="text-gray-400 text-sm mt-2">
+                  Español + Portfolio Photo
+                </p>
+              </a>
             </div>
           </div>
         </form>

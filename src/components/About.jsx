@@ -47,9 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        Passionate and results-driven Full Stack Developer with a proven track record of successfully completing over 40  Ruby on Rails and React projects. 
-        Equipped with extensive hands-on experience, I possess a strong foundation in remote work and pair programming, enabling me to excel in distributed environments. 
-        I am a firm believer that each day should present new challenges and opportunities for personal and professional growth, and I strive to make every moment rewarding.
+        Full Stack Developer with professional experience in frontend and backend development, specializing in JavaScript, TypeScript, React, Next.js, Node.js, and Ruby on Rails. Experienced in Agile environments, remote collaboration, and building responsive, scalable, and maintainable web applications. Passionate about problem-solving, continuous improvement, and delivering high-quality software that enhances user experience and drives business success.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

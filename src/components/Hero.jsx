@@ -13,13 +13,17 @@ const Hero = () => {
           <div className='w-1 sm:h-60 h-40 bg-gradient-to-b from-[#B2140B] to-white' />
         </div>
 
-        <div> 
-          <h1 className="font-black text-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2 text-black">
-            Hello, I'm <span className='text-[#B2140B]'>Pierre</span>
+        <div>
+          <h1 className="font-black text-black lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">
+            Hello, I'm <span className="text-[#B2140B]">Pierre</span>
           </h1>
+
           <p className="text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-black">
-          Welcome to my web developer portfolio!  <br className='sm:block hidden' />
-          I hope you find in my skills what you're looking for to enhance your project.
+            Full Stack Developer with experience building scalable web applications
+            using React, Next.js, TypeScript and modern development practices.
+            <br className="sm:block hidden" />
+            Dedicated to creating high-quality software, continuous learning,
+            and delivering impactful digital solutions.
           </p>
         </div>
       </div>

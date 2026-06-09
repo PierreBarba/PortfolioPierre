@@ -21,12 +21,22 @@ import ruby from "./tech/ruby.png";
 import rubyRails from "./tech/rubyRails.png";
 import jest from "./tech/jest.png";
 import webP from "./tech/webP.png";
-import adobe from "./tech/adobe.png";
+import adobe from "./tech/adobe.jpg";
+import bit from "./tech/bit.jpeg"
+import figma from "./tech/figma.png"
+import next from "./tech/nextjs.jpg"
+import materialui from "./tech/materialui.png"
+import node from "./tech/nodejs.png"
+import office from "./tech/office.jpg"
+import typescript from "./tech/typescript.png"
+
+
 
 
 import meta from "./company/meta.png";
 import aeo from "./company/aeo.png";
 import starbucks from "./company/starbucks.png";
+import epam from "./company/epam.png";
 
 import pokeapi from "./pokeapi.png";
 import metric from "./metric.png";
@@ -55,6 +65,7 @@ export {
   meta,
   aeo,
   starbucks,
+  epam,
   pokeapi,
   metric,
   ruby,
@@ -67,5 +78,12 @@ export {
   webP,
   adobe,
   MySql,
-  space
+  space,
+  bit,
+  figma,
+  materialui,
+  next,
+  node,
+  office,
+  typescript,
 };
