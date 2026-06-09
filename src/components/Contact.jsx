@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import Resume from "../assets/resume.pdf";
 import ResumePierreBarba from "../assets/ResumePierreBarba.pdf";
-import ResumeEspañolPierreBarba from "../assets/ResumeEspañolPierreBarba.pdf";
+import ResumeEspañol from "../assets/ResumeEspañol.pdf";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -137,9 +137,8 @@ const Contact = () => {
                   English Version
                 </p>
               </a>
-
               <a
-                href={ResumeEspañolPierreBarba}
+                href={ResumeEspañol}
                 download
                 className="bg-black border-2 border-white rounded-2xl p-4 text-center hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-white/20"
               >
@@ -151,7 +150,6 @@ const Contact = () => {
                   Versión en Español
                 </p>
               </a>
-
               <a
                 href={ResumePierreBarba}
                 download
